@@ -18,3 +18,11 @@
   max-width: 100%;
 }
 }
+
+@media (max-width: 500px) {
+
+.mb-column-reverse{flex-direction: column-reverse;}
+.form-check{margin-bottom: 10px !important;}
+#kt_create_account_stepper{margin-top: 20px;}
+}
+
