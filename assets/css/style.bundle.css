@@ -2,7 +2,7 @@
 
 .book-img img{ max-width: 340px; margin:25px 0; text-align: center;}
 .book-img{ text-align: center;}
-.call-us a{font-size: 20px; margin: 5px 0;}
+.call-us a{font-size: 16px; margin: 5px 0;}
 .stepper-item span {
   width: 25px;
   height: 25px;
@@ -18,7 +18,8 @@
 .completed h3.stepper-title span {background-color: #b5b5c3;}
 .stepper.stepper-links .stepper-nav .stepper-item.current .stepper-title span {background-color: #009ef7;}
 .btn-round{border-radius: 50px;}
-
+.disp.current .text-end{ display: none;}
+.ove{display: none;}
 
 @media (min-width: 992px){
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
