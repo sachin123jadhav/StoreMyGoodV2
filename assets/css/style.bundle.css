@@ -36,7 +36,7 @@
 @media (max-width: 500px) {
 
 .mb-column-reverse{flex-direction: column-reverse;}
-.form-check{margin-bottom: 10px !important;}
+.form-check{margin-bottom: 15px !important;}
 #kt_create_account_stepper{margin-top: 20px; margin-bottom: 70px;}
 .radio-row .col{display: block ruby;;}
 .mb-hide{display: none !important;}
@@ -54,5 +54,6 @@
     border: none;
    
     cursor: pointer; display: block !important; z-index: 9999;}
+    .radio-row .col{flex: 0;}
 }
 
