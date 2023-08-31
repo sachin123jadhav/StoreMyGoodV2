@@ -23,6 +23,8 @@
 
 .mb-column-reverse{flex-direction: column-reverse;}
 .form-check{margin-bottom: 10px !important;}
-#kt_create_account_stepper{margin-top: 20px;}
+#kt_create_account_stepper{margin-top: 20px; margin-bottom: 25px;}
+.radio-row .col{display: block ruby;;}
+.book-img{display: none;}
 }
 
