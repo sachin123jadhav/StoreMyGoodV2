@@ -17,6 +17,8 @@
 .stepper.stepper-links .stepper-nav .stepper-item::after{top: 3rem;}
 .completed h3.stepper-title span {background-color: #b5b5c3;}
 .stepper.stepper-links .stepper-nav .stepper-item.current .stepper-title span {background-color: #009ef7;}
+.btn-round{border-radius: 50px;}
+
 
 @media (min-width: 992px){
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -35,12 +37,22 @@
 
 .mb-column-reverse{flex-direction: column-reverse;}
 .form-check{margin-bottom: 10px !important;}
-#kt_create_account_stepper{margin-top: 20px; margin-bottom: 25px;}
+#kt_create_account_stepper{margin-top: 20px; margin-bottom: 70px;}
 .radio-row .col{display: block ruby;;}
 .mb-hide{display: none !important;}
 .mb-md-5 {
   margin-bottom: 1rem !important;
 }
 .stepper.stepper-links .stepper-nav{justify-content: start;}
+
+.sticky-btn{position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+   
+    cursor: pointer; display: block !important; z-index: 9999;}
 }
 
