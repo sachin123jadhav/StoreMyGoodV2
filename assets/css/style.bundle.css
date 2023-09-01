@@ -65,8 +65,8 @@
     cursor: pointer; display: block !important; z-index: 9999;}
     .radio-row .col{flex: 0; min-width: 33.33%;}
     .box label{width: 100%;}
-    .stepper.stepper-links .stepper-nav{margin-left: 50px;}
-    .stepper.stepper-links .stepper-nav::before{content:'Steps'; width: 50px; position: absolute; left: 15px;}
+    .stepper.stepper-links .stepper-nav{margin-left: 60px;}
+    .stepper.stepper-links .stepper-nav::before{content:'Steps:-'; width: 60px; position: absolute; left: 15px; font-size: 16px;}
 }
 
 
