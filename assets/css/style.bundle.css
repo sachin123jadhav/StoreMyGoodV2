@@ -3,7 +3,7 @@
 .book-img img{ max-width: 340px; margin:25px 0; text-align: center;}
 .book-img{ text-align: center;}
 .call-us a{font-size: 16px; margin: 5px 0;}
-.stepper-item span {
+.stepper-item span.digi {
   width: 25px;
   height: 25px;
   background-color: #000;
@@ -16,11 +16,18 @@
 }
 .stepper.stepper-links .stepper-nav .stepper-item::after{top: 3rem;}
 .completed h3.stepper-title span {background-color: #b5b5c3;}
-.stepper.stepper-links .stepper-nav .stepper-item.current .stepper-title span {background-color: #009ef7;}
+.stepper.stepper-links .stepper-nav .stepper-item.current .stepper-title span.digi {background-color: #009ef7;}
 .btn-round{border-radius: 50px;}
 .disp.current .text-end{ display: none;}
 .ove{display: none;}
 .form-check.form-check-solid .form-check-input:checked ~ label{background-color: red;}
+.completed h3.stepper-title span {
+  background-color: transparent;
+}
+
+.completed h3.stepper-title span.digi {
+  background-color: #b5b5c3;
+}
 
 @media (min-width: 992px){
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -58,6 +65,8 @@
     cursor: pointer; display: block !important; z-index: 9999;}
     .radio-row .col{flex: 0; min-width: 33.33%;}
     .box label{width: 100%;}
+    .stepper.stepper-links .stepper-nav{margin-left: 50px;}
+    .stepper.stepper-links .stepper-nav::before{content:'Steps'; width: 50px; position: absolute; left: 15px;}
 }
 
 
