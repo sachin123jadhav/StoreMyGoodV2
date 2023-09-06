@@ -21,17 +21,7 @@
 .disp.current .text-end{ display: none;}
 .ove{display: none;}
 .form-check.form-check-solid .form-check-input:checked ~ label{background-color: red;}
-<<<<<<< HEAD
 .btn-full{width: 100%;}
-=======
-.completed h3.stepper-title span {
-  background-color: transparent;
-}
-
-.completed h3.stepper-title span.digi {
-  background-color: #b5b5c3;
-}
->>>>>>> 0f04886dbcbd0e89686e938ea6a367d78720961d
 
 @media (min-width: 992px){
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
