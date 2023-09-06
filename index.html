@@ -436,18 +436,7 @@
 															</div>
 
 															<div class="row">
-																<div class="col-md-4">
-																	<div class="fv-row mb-10 mb-md-5">
-																		<!--begin::Label-->
-																		<label class="form-label ">Pincode</label>
-																		<!--end::Label-->
-																		<!--begin::Input-->
-																		<input type="number" name="hn"
-																			class="form-control form-control-lg form-control-solid"
-																			placeholder="Enter Pincode" />
-																		<!--end::Input-->
-																	</div>
-																</div>
+																
 																<div class="col-md-4">
 																	<div class="fv-row mb-10 mb-md-5">
 																		<!--begin::Label-->
@@ -492,6 +481,18 @@
 																			<option value="4">City 5</option>
 																			<option value="5">City 6</option>
 																		</select>
+																		<!--end::Input-->
+																	</div>
+																</div>
+																<div class="col-md-4">
+																	<div class="fv-row mb-10 mb-md-5">
+																		<!--begin::Label-->
+																		<label class="form-label ">Pincode</label>
+																		<!--end::Label-->
+																		<!--begin::Input-->
+																		<input type="number" name="hn"
+																			class="form-control form-control-lg form-control-solid"
+																			placeholder="Enter Pincode" />
 																		<!--end::Input-->
 																	</div>
 																</div>
@@ -600,7 +601,7 @@
 														<!--begin::Wrapper-->
 														<div class="w-100">
 															<!--begin::Heading-->
-															<div class="pb-10 pb-lg-15">
+															<div class="pb-5 pb-lg-5">
 																<!--begin::Title-->
 																<h2 class="fw-bolder text-dark">Estimate & Payment</h2>
 																<!--end::Title-->
@@ -609,11 +610,58 @@
 															<!--end::Heading-->
 
 															<!--begin::Input group-->
-															<div class="row mb-10 mb-md-5">
+															<div class="row mb-5 mb-md-5">
 																<!--begin::Col-->
 																<div class="col-md-12 fv-row">
 
-																	<p>Comming Soon</p>
+																	<p>This is a tentative estimate. Final price may vary based on the actual storage items, as verified at the time of pick-up.</p>
+																<div class="table-responsive">
+																	<table class="table table-bordered">
+																		<tbody>
+																			<tr>
+																				<td width="80%">Estimated Monthly Storage Charges</td>
+																				<td>₹3,400.00 + 18% GST</td>
+																			</tr>
+																			<tr>
+																				<td>Discount Percentage</td>
+																				<td>20%</td>
+																			</tr>
+																			<tr>
+																				<td>Monthly Storage Charges(After Discount)</td>
+																				<td>₹2,720.00</td>
+																			</tr>
+																			<tr>
+																				<td>Logistics Charges (Packaging and Transport)</td>
+																				<td>₹6,900.00 + 18% GST</td>
+																			</tr>
+																			<tr>
+																				<td>Refundable Security Deposit</td>
+																				<td>₹2,720.00</td>
+																			</tr>
+																			<tr>
+																				<td colspan="1"><br></td>
+																				
+																			</tr>
+																			<tr>
+																				<td><h3>Booking Amount</h3>
+																				<p>(To Reserve your storage at this price)</p>
+																				<h5>Pay Booking Amount Now and GET EXTRA 5% OFF on Logistics Charges*</h5>
+																				<p>*Additional discount of 5% on Logistics charges is applicable only when Booking Amount of ₹1,180.00 is paid before midnight today.</p>
+																			</td>
+																				<td><h3>₹1,000.00 + 18% GST</h3>
+																				<button class="btn btn-primary btn-full">₹1,180.00<br>Pay Now</button>
+																				<p class="text-center">
+																					(inc. 18% GST)
+																				</p>
+																				
+																				</td>
+																			</tr>
+																		</tbody>
+
+																	</table>
+																</div>
+																
+																
 																</div>
 																<!--end::Col-->
 
@@ -721,22 +769,12 @@
 														<!--end::Wrapper-->
 														<!--begin::Wrapper-->
 														<div>
-															<button type="button" class="btn btn-lg btn-primary me-3"
+															<button type="button" class="btn btn-lg btn-primary "
 																data-kt-stepper-action="submit">
-																<span class="indicator-label">Submit
+																<span class="indicator-label">Download Quotation
 																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
 																	<span class="svg-icon svg-icon-3 ms-2 me-0">
-																		<svg xmlns="http://www.w3.org/2000/svg"
-																			width="24" height="24" viewBox="0 0 24 24"
-																			fill="none">
-																			<rect opacity="0.5" x="18" y="13" width="13"
-																				height="2" rx="1"
-																				transform="rotate(-180 18 13)"
-																				fill="black" />
-																			<path
-																				d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z"
-																				fill="black" />
-																		</svg>
+																		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="download"><path d="M21,14a1,1,0,0,0-1,1v4a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V15a1,1,0,0,0-2,0v4a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V15A1,1,0,0,0,21,14Zm-9.71,1.71a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l4-4a1,1,0,0,0-1.42-1.42L13,12.59V3a1,1,0,0,0-2,0v9.59l-2.29-2.3a1,1,0,1,0-1.42,1.42Z"></path></svg>
 																	</span>
 																	<!--end::Svg Icon--></span>
 																<span class="indicator-progress">Please wait...

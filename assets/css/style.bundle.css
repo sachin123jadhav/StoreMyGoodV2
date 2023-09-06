@@ -21,6 +21,7 @@
 .disp.current .text-end{ display: none;}
 .ove{display: none;}
 .form-check.form-check-solid .form-check-input:checked ~ label{background-color: red;}
+.btn-full{width: 100%;}
 
 @media (min-width: 992px){
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
